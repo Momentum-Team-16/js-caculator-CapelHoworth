@@ -47,3 +47,11 @@
   font-size: 6vh;
   padding: 2%;
 }
+
+.square:hover {
+  background-color: lightgreen;
+}
+
+.shmequal:hover {
+  background-color: lightgreen;
+}

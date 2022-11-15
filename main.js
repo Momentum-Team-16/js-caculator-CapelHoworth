@@ -1,10 +1,10 @@
-let container = document.querySelector("#main");
-let button = document.querySelector("button");
+// let container = document.querySelector("#main");
+// let button = document.querySelector("button");
 let display = document.querySelector(".display");
 let squares = document.querySelectorAll(".square");
 let clear = document.querySelector(".clear");
 let equal = document.querySelector(".equal");
-console.log("squares");
+// console.log("squares");
 
 for (let square of squares) {
   square.addEventListener("click", function (event) {
