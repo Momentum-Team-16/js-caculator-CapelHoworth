@@ -1,0 +1,49 @@
+#main {
+  width: 90vh;
+  height: 90vh;
+  /* border: 5px solid green; */
+}
+
+#grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  /* width: 20vw; */
+  height: 20vh;
+  border: 1px solid white;
+  background-color: rgb(98, 192, 98);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vh;
+}
+
+.shmequal {
+  height: 20vh;
+  border: 1px solid white;
+  background-color: rgb(98, 192, 98);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vh;
+}
+
+.display {
+  height: 20vh;
+  border: 1px solid white;
+  background-color: rgb(98, 192, 98);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+  font-size: 6vh;
+  padding: 2%;
+}
